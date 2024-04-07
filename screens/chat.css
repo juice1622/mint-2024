@@ -1,0 +1,27 @@
+#chat-screen {
+    background-color: rgba(72, 207, 211, 0.4);
+    position: absolute;
+    height: 650px;
+    width: 320px;
+    border-radius: 25px;
+    top: 0;
+}
+.main-chat {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes loading {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.main-chat i {
+    margin-top: 200px;
+    animation: loading 1.5s ease-in-out infinite;
+}

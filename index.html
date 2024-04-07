@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi fa-xs"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt-lightning fa-xs"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to MINT</h1>
+      <p class="welcome-header__text">
+        If you have a MINT Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input required type="text" placeholder="Email or phone number" />
+      <input required type="password" minlength="10" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="friends.html">Find MINT Account or Password</a>
+    </form>
+
+    <div id="no-mobile">
+      <span>I don't like this big screen 😒😒</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/43fa12ea4e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

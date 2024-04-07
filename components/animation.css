@@ -1,0 +1,46 @@
+@keyframes myAwesomeAnimation2 {
+    0% {
+        transform: scaleY(1);
+    }
+    30% {
+        transform: scaleY(2.5);
+    }
+    60% {
+        transform: scaleY(1);
+    }
+}
+
+#animation2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-delay: 0.2s;
+    animation-delay: 0.4s;
+}
+
+.animation2-item {
+    background-color: #6BBCBE;
+    height:10px;
+    width:5px;
+    margin:10px 4px;
+}
+
+.animation2-item:first-child {
+    animation: myAwesomeAnimation2 1s ease-in infinite;
+}
+
+.animation2-item:nth-child(2) {
+    animation: myAwesomeAnimation2 1s 0.1s ease-in infinite;
+}
+
+.animation2-item:nth-child(3) {
+    animation: myAwesomeAnimation2 1s 0.2s ease-in infinite;
+}
+
+.animation2-item:nth-child(4) {
+    animation: myAwesomeAnimation2 1s 0.3s ease-in infinite;
+}
+
+.animation2-item:nth-child(5) {
+    animation: myAwesomeAnimation2 1s 0.4s ease-in infinite;
+}
